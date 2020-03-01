@@ -47,7 +47,7 @@ int main()
 {
 	ifstream fin("planting.in");
 	ofstream fout("planting.out");
-
+	
 	fin >> N;
 	int a, b;
 	for (int i = 0; i < N-1; i++) {
